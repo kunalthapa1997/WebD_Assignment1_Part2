@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.booking{
+    background-image: url(".././Assets/booking.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    background-color: rgb(0, 0, 0 / 50%);
+    background-blend-mode: color-burn;
+}
+
+.booking_text{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.booking_text h1{
+    font-size: 50px;
+    color: white;
+    margin: 0;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+
+.booking_text p{
+    margin: 0;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+.booking_text input{
+    padding: 8px 6px;
+    font-size: 18px;
+    display: flex;  
+    width: 100%;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+    opacity: 60%;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 0px;
+}
+
+.booking_text select{
+    padding: 8px 6px;
+    font-size: 18px;
+    text-transform: capitalize;
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+    opacity: 60%;
+    color: #fff;
+}
+
+.booking_text select option{
+    
+}
+
+.booking_text textarea{
+    padding: 10px 6px;
+    font-size: 18px;
+    text-transform: capitalize;
+    display: flex;
+    width: 100%;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+    opacity: 60%;
+    color: #fff;
+}
+
+.booking_text a{
+    font-size: 18px;
+    background-color: #180904;
+    color: #fff;
+    padding: 8px 24px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+.booking_text a:hover{
+    background-color: #ffffff;
+    color: #190904;
+}
+
+input:focus-visible{
+    outline: 0 !important;
+}
+
+select:focus-visible{
+    outline: 0 !important;
+}
+
+textarea:focus-visible{
+    outline: 0 !important;
+}
+
+.btn{
+    font-size: 18px;
+    background-color: #180904;
+    color: #fff;
+    padding: 8px 24px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 500;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #ffffff;
+    color: #190904;
+}
+
+.logo{
+    height: 10%;
+    width: 67px;
+    margin-right: 85px;
+    aspect-ratio: 1;
+    margin-left: -14px;
+    margin-top: -14px;
+    cursor: pointer;
+}
+
+.heading{
+    font-size: 2.2rem;
+    margin-left: -9vh;
+    margin-top: 0vh;
+    color: white;
+    font-family: cursive;
+}
+
+.adjust-header{
+    justify-content: space-between;
+    display: inline-flex;
+}
