@@ -211,7 +211,38 @@ html {
     width: 100%;
     background-size: cover;
     background-position: left;
-    background-image: url(".././Assets/pizza.jpg");
+}
+
+.pizza{
+    background-image: url(".././Assets/chickpizza.jpg");
+}
+
+.pasta{
+    background-image: url(".././Assets/pasta.jpg");
+}
+
+.nachos{
+    background-image: url(".././Assets/nachos.jpg");
+}
+
+.salad{
+    background-image: url(".././Assets/salad.jpg");
+}
+
+.burger{
+    background-image: url(".././Assets/burger.jpg");
+}
+
+.tacos{
+    background-image: url(".././Assets/tacos.jpg");
+}
+
+.waffle{
+    background-image: url(".././Assets/waffle.jpg");
+}
+
+.cake{
+    background-image: url(".././Assets/cheesecake.jpg");
 }
 
 .menu-container{
@@ -230,9 +261,12 @@ html {
 }
 
 .menu-p{
-    font-size: 1.4rem;
+    font-size: 1.9rem;
     padding: 1rem;
     text-align: center;
+    width: 80%;
+    margin: 1rem auto 0 auto;
+    color: #2e2727;
 }
 
 .menu-title{
