@@ -164,7 +164,7 @@
                 <div class="right">
                     <span><img src=".././Assets/footerFood.jpg" alt="" class="right-img"></span>
                     <div class="contact-form">
-                        <form class="form">
+                        <div class="form">
                             <h1 class="contact-heading">Contact Us</h1>
                             <div class="form-group">
                                 <input type="text" class="input" id="name" placeholder="Name...." required>
@@ -178,8 +178,14 @@
                                <textarea type="text" class="input textarea" placeholder="message..." required></textarea>
                                <label for="">Message</label>
                             </div>
-                            <a href="#" class="contact-btn">Submit</a>
-                        </form>
+
+                            <button id="contact-btn">Submit</button>
+                                <div id="message-box">
+                                    <h2>Contact Details Shared</h2>
+                                    <p>Thank you for sharing your contact details. We will get in touch with you soon.</p>
+                                    <button id="close-btn">Close</button>
+                                </div>
+                            </div>
                     </div>
                 </div>
             </div>
@@ -341,5 +347,6 @@
                 <p class="copyright">Cafe By Greens © 2023 - All Rights Reserved</p>
             </footer>
         </section>
+        <script src=".././js/script.js"></script>
      </body>
 </html>

@@ -1,0 +1,19 @@
+@mixin flex($color, $overflow-type, $height-defined, $transition-before, $boxShadow-before) {
+    width: 100%;
+    height: $height-defined;
+    background-color: $color;
+    border-radius: 5px;
+    overflow: $overflow-type;
+    box-shadow: $boxShadow-before;
+    transition: $transition-before; 
+}
+  
+.menu-container {
+    @include flex(white, hidden, 50rem, all .4s ease, 0 0 2rem rgba(0, 0, 0, .2));
+}
+
+.menu-container:hover {
+    transform: scale(1.07);
+    @include flex(white, hidden, 50rem, all .4s ease, 0 0 5rem rgba(0, 0, 0, .4));
+}
+  

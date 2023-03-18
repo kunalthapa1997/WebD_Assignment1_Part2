@@ -1,0 +1,22 @@
+.navbar-list {
+    list-style: none;
+    font-size: $font-size;
+  
+    .navbar-item {
+        display: inline-block;
+        
+        .navbar-link:visited,
+        .navbar-link:link{
+            text-decoration: none;
+            color: white;
+            padding: 3rem;
+            transition: all .2s ease;
+        
+            &:hover {
+                background-color: #da6b1d;
+                color: white;
+            }
+        }
+    }
+}
+  

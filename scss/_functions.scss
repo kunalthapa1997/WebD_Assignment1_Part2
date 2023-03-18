@@ -1,0 +1,16 @@
+@function calculate-rem($size) {
+    @return $size / $font-size * 1rem;
+  }
+
+  .menu-heading{
+    font-size: calculate-rem(28rem);
+    text-align: center;
+    text-shadow: 0 0 1rem rgba(0, 0, 0, .9);
+    text-transform: uppercase;
+    color: white;
+    font-weight: 800;
+    margin-bottom: 5vh;
+    margin-top: -5vh;
+}
+
+  

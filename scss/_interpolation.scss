@@ -1,0 +1,6 @@
+$property: "scroll-behavior";
+$scroll-type: smooth;
+
+html {
+    #{$property}: $scroll-type;
+}
