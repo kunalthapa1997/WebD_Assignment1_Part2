@@ -5,13 +5,14 @@ body{
 
 .booking{
     background-image: url(".././Assets/booking.jpg");
-    height: 100vh;
+    height: 169vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 50px;
     background-color: rgb(0, 0, 0 / 50%);
     background-blend-mode: color-burn;
+    opacity: 0.9;
 }
 
 .booking_text{
@@ -31,7 +32,7 @@ body{
 .booking_text p{
     margin: 0;
     color: #fff;
-    font-size: 16px;
+    font-size: 1.5rem;
     margin-bottom: 50px;
 }
 
@@ -147,3 +148,59 @@ textarea:focus-visible{
     justify-content: space-between;
     display: inline-flex;
 }
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(31vh);
+  }
+  
+  form {
+    width: 100%;
+    max-width: 730px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Grid styles */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .grid-item {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .grid-item label {
+    margin-bottom: 5px;
+  }
+  
+  .grid-item input,
+  .grid-item select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .grid-item button {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .grid-item button:hover {
+    background-color: #444;
+  }
+
+  .party-heading {
+    margin-top: 14rem !important;
+  }
